@@ -1,22 +1,21 @@
- #include < stdio.h >
+#include <stdio.h>
+
 /**
- * main - Prints all possible combinations of single-digit numbers.
- * Return: Always 0.
+ *main - Entry point
+ *Description - Printing base 16 numbers
+ *Return:0
  */
 int main(void)
 {
-	int num;
-
-	for (num = 0; num <= 9; num++)
+    int i, y;
+    for (i = 0; i < 10; i++)
 	{
-		putchar((num % 10) + '0');
-		if (num == 9)
-			continue;
-		putchar(',');
-		putchar(' ');
+	     putchar (i + '0');
 	}
-
-	putchar('\n');
-	return (0);
+           for (y = 'a'; y <= 'f'; y++)
+               {
+	           putchar (y);
+               }	   
+        putchar('\n');
+        return (0);	   
 }
-
