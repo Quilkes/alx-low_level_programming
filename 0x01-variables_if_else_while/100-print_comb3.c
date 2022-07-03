@@ -1,5 +1,5 @@
-#include < stdio.h >
-#include < stdlib.h >
+#include <stdio.h>
+
 /**
  * main - main block
  * Description: Write a program that prints all possible
