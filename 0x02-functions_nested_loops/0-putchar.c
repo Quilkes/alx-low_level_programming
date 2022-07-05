@@ -1,13 +1,23 @@
-#include <stdio.h>
+#include " main.h "
+
 
 /**
- * _putchar -write the character c to stdout
- * @c: the character to print
+ * main - Entry point
  *
- * Return: on success 1.
- * on error, -1 is returned, and error is set appropriately
+ * Return: nothing, return void
  */
-int _purchar (char c)
+
+int main(void)
 {
-	return (fwrite(1, &c, 1));
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
+return (0);
 }
